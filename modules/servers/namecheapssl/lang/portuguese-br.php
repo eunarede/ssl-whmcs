@@ -79,20 +79,20 @@ $_MOD_LANG['ncssl_admin_viewdetails_nc_order_id'] = 'NC Order id';
 $_MOD_LANG['ncssl_admin_viewdetails_nc_cert_id'] = 'NC Cert id';
 $_MOD_LANG['ncssl_admin_viewdetails_csr'] = 'CSR';
 $_MOD_LANG['ncssl_admin_viewdetails_decoded_csr'] = 'Decodificar CSR';
-$_MOD_LANG['ncssl_admin_viewdetails_common_name'] = 'Common Name';
-$_MOD_LANG['ncssl_admin_viewdetails_domain_name'] = 'Domain Name';
-$_MOD_LANG['ncssl_admin_viewdetails_country'] = 'Country';
-$_MOD_LANG['ncssl_admin_viewdetails_organization_unit'] = 'Organization Unit';
-$_MOD_LANG['ncssl_admin_viewdetails_organization'] = 'Organization';
+$_MOD_LANG['ncssl_admin_viewdetails_common_name'] = 'Nome Comum';
+$_MOD_LANG['ncssl_admin_viewdetails_domain_name'] = 'Nome de Domínio';
+$_MOD_LANG['ncssl_admin_viewdetails_country'] = 'País';
+$_MOD_LANG['ncssl_admin_viewdetails_organization_unit'] = 'Setor Organizacional';
+$_MOD_LANG['ncssl_admin_viewdetails_organization'] = 'Organização';
 $_MOD_LANG['ncssl_admin_viewdetails_valid_true_domain'] = 'Valid True Domain';
-$_MOD_LANG['ncssl_admin_viewdetails_state'] = 'State';
-$_MOD_LANG['ncssl_admin_viewdetails_locality'] = 'Locality';
+$_MOD_LANG['ncssl_admin_viewdetails_state'] = 'Estado';
+$_MOD_LANG['ncssl_admin_viewdetails_locality'] = 'Localidade';
 $_MOD_LANG['ncssl_admin_viewdetails_email'] = 'Email';
 $_MOD_LANG['ncssl_admin_viewdetails_approver_email'] = 'Approver Email';
-$_MOD_LANG['ncssl_admin_viewdetails_common_name'] = 'Common Name';
+$_MOD_LANG['ncssl_admin_viewdetails_common_name'] = 'Nome Comum';
 $_MOD_LANG['ncssl_admin_viewdetails_provider_order_id'] = 'Provider Order ID';
-$_MOD_LANG['ncssl_admin_viewdetails_provider_name'] = 'Provider Name';
-$_MOD_LANG['ncssl_admin_viewdetails_button'] = 'View Info';
+$_MOD_LANG['ncssl_admin_viewdetails_provider_name'] = 'Nome do Provedor';
+$_MOD_LANG['ncssl_admin_viewdetails_button'] = 'Ver Info';
 
 $_MOD_LANG['ncssl_admin_viewdetails_count_of_sans'] = 'Count of SANs';
 $_MOD_LANG['ncssl_admin_viewdetails_sans'] = 'Domínios Adicionais';
@@ -157,26 +157,26 @@ $_MOD_LANG['ncssl_addon_setting_ssync_date_offset_2'] = 'days before the actual 
 $_MOD_LANG['ncssl_addon_changes_saved_success'] = 'Changes Saved Successfully!';
 
 
-$_MOD_LANG['ncssl_http_based_validation'] = "HTTP based validation";
+$_MOD_LANG['ncssl_http_based_validation'] = "Validação por HTTP";
 $_MOD_LANG['ncssl_show_validation_file_contents'] = 'Show validation file contents';
-$_MOD_LANG['ncssl_custom_phrase_sslconfigcompletedetails'] = 'Please create<br /><br />%filename%<br /><br />with contents<br /><br />%contents%<br /><br />and put it into the root directory of your domain. It may take some time for file to be automatically validated and cert to be issued by Certificate Authority';
-$_MOD_LANG['ncssl_download_certificate'] = "Download certificate";
+$_MOD_LANG['ncssl_custom_phrase_sslconfigcompletedetails'] = 'Por favor, crie o arquivo<br /><br />%filename%<br /><br />com o seguinte conteúdo <br /><br />%contents%<br /><br /> e adicione no diretório raiz (geralmente public_html ou www) do seu domínio. Poderá levar algum tempo para o arquivo ser validado automaticamente e seu certificado ser emitido pela Autoridade Certificadora.';
+$_MOD_LANG['ncssl_download_certificate'] = "Download do Certificado";
 
 
-$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails'] = 'Please select any of emails if you wish to proceed with email-based validation. An approval email will be sent to selected address by Certificate Authority after activation.';
-$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails_http_based'] = '<br /><br />If you select \'HTTP based validation\' option,  you will need to place a certain file into a root directory of your domain. Name and contents of the file will be provided at the last step of the activation process. No emails will be sent for Domain Control Validation.';
+$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails'] = 'Por favor, selecione qualquer um dos e-mails se desejar prosseguir com a validação por e-mail. Um e-mail de aprovação será enviado para o endereço selecionado pela autoridade certificadora após a ativação.';
+$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails_http_based'] = '<br /><br />Se você selecionar a opção \'Validação baseada em HTTP\',  você precisará colocar um determinado arquivo no diretório raiz do seu domínio. O Nome e o conteúdo do arquivo será fornecido na última etapa do processo de ativação. Nenhum e-mail será enviado para validação do domínio.';
 
-$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails_san'] = 'Please select local part of emails you wish to receive your approval emails to. This local part will be used to send approval emails for all domains and subdomains. <br /><br />For example, if \'admin@\' is selected as approver having main domain specified as \'domain.com\' and addon domain is \'sub.domain1.com\' , the approver emails will be sent to admin@domain.com and admin@sub.domain1.com.';
+$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails_san'] = 'Por favor selecione o e-mail que deseja receber a mensagem de aprovação. Este endereço será usado para enviar e-mails de aprovação para todos os domínios e subdomínios. <br /><br />Por exemplo, se \'admin@\' for selecinado como endereço de aprovação tendo o domínio principal como \'dominio.com\' e o domínio adicional é \'sub.dominio1.com\' , o e-mail de aprovação será enviado para admin@dominio.com e admin@sub.dominio1.com.';
 
-$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails_san_http_based'] = '<br /><br />If you select \'HTTP based validation\' option, you will need to place a certain file into a root directory of servers for all of the domains specified while activation. Name and contents of the file will be provided at the last step of the activation process. No emails will be sent for Domain Control Validation.';
+$_MOD_LANG['ncssl_custom_phrase_sslcertapproveremaildetails_san_http_based'] = '<br /><br />Se você selecionar a opção \'Validação por HTTP\', você precisará inserir um arquivo no diretório raiz do servidor de todos os domínios especificados na ativação. O Nome e o conteúdo do arquivo será fornecido na última etapa do processo de ativação. Nenhum e-mail será enviado para validação do domínio.';
 
 
-$_MOD_LANG['ncssl_san_items_title'] = 'Enter additional domains';
+$_MOD_LANG['ncssl_san_items_title'] = 'Domínios Adicionais';
 
-$_MOD_LANG['ncssl_san_items_item'] = 'Addon Domain ';
-$_MOD_LANG['ncssl_san_items_item_quick_ssl_premium'] = 'Addon Subdomain ';
+$_MOD_LANG['ncssl_san_items_item'] = 'Domínio Adicional ';
+$_MOD_LANG['ncssl_san_items_item_quick_ssl_premium'] = 'Adicionar Subdominio ';
 
-$_MOD_LANG['ncssl_san_csr_note'] = ' Domains included in SAN sections in CSR will be ignored! Please input addon domains in fields below the box for CSR. Please do not input main domain as addon domain. It is taken from CSR. Please make sure you do not use duplicates.';
+$_MOD_LANG['ncssl_san_csr_note'] = ' Domínios incluídos nas seções de SAN no CSR será ignorado! Por favor coloque domínios adicionais nos campos abaixo da caixa do CSR. Por favor não adicione o domínio principal nos domínios adicionais. Ele será adicionado através do CSR. Confira se não existem domínios duplicados.';
 
 $_MOD_LANG['ncssl_reissue_notice_step1'] = 'The following contact information will be used for reissue of your certificate:';
 $_MOD_LANG['ncssl_reissue_notice_step2'] = 'The following information will be used for reissue of your certificate:';
